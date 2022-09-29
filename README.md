@@ -12,6 +12,10 @@ Frontend is what the user sees or anything a user can interact with. Backend is 
 
 # **What do the HTTP Status Codes represent?**
 
-
+- 100-199 is informational
+- 200-299 is successful
+- 300-399 is Redirection 
+- 400-499 is Client Error
+- 500-599 is Server Error
 
 # **What are the Primary HTTP Verbs and what do they mean?**
