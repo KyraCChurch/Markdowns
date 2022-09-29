@@ -9,3 +9,9 @@ HTML, CSS, and JavaScript all work together to make a website function properly 
 # **What is the Difference Between Backend and Frontend?**
 
 Frontend is what the user sees or anything a user can interact with. Backend is what the user doesn't see but is necessary to allow the user to do what they want to do or to allow a website to fulfil it's purpose. 
+
+# **What do the HTTP Status Codes represent?**
+
+
+
+# **What are the Primary HTTP Verbs and what do they mean?**
