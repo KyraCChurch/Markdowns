@@ -36,16 +36,29 @@ W11D01
 
 Index holds all of our existing subjects.
 
-''' test '''
+Example:
+``` js
+def index
+@disney_movies = DisneyMovie.all
+render :index
+end
+```
 
 # **Explain what New does.**
 
 New allows a user to add a new subject but does not add this new subject to the database.
 
+Example:
+
+
 # **Explain what Create does.**
 
 Create takes the new subject that added to "New" and adds it to the database while also showing the user the new subject.
 
+Example:
+
 # **Explain what Show Routes does.**
 
 Show takes a subject out of an index and puts it on its own page. 
+
+Example: 
