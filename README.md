@@ -89,3 +89,17 @@ def show
 @disney_movie = DisneyMovie.find(params[:id])
 render :show
 ```
+
+w11D03
+
+# **What is Big O Notation?**
+
+Big O notation defines how long it takes an algorithm to run.
+
+# **Contrast Big O Notation with Omega and Theta**
+
+Big O is used to predict the worst possible running time. Big Ω notation, on the other hand, is used to predict the best possible running time. Big θ will show you the average time taken by algorithm to complete by looking at Big O and Big Ω.
+
+
+
+
