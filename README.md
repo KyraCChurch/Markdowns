@@ -96,10 +96,65 @@ w11D03
 
 Big O notation defines how long it takes an algorithm to run.
 
-# **Contrast Big O Notation with Omega and Theta**
+# **Contrast Big O Notation with Omega and Theta.**
 
 Big O is used to predict the worst possible running time. Big Ω notation, on the other hand, is used to predict the best possible running time. Big θ will show you the average time taken by algorithm to complete by looking at Big O and Big Ω.
 
+W12D03
 
+# **Is Node.js a programming language? What is Node?**
 
+Node.js is not a programing language. Node.js is an open source JavaScript runtime environment. In our case it is what communicates between the user and express when a user is requesting information. 
+
+# **Is Express a programming language? What is Express?**
+
+Express is a node.js application that is used to build our applications. It provides many features that help us do this. 
+
+# **What is the primary reason why Node/Express applications are so performant?**
+
+Because they have a lot of features and it is fast because it interprets code through the V8 JS engine.
+
+# **Is... const el = document.getElementById('my-list'); a valid JavaScript statement in a Node app? Why or Why Not?**
+
+No because document.getElementById is not a valid command in Node. 
+
+# **What is a CRUD?**
+
+Create, Read, Update, Delete. These are the minimum functionality of a Backend Application.
+
+# **What does INDUCES stand for?**
+
+Index, New, Delete, Update, Create, Edit, Show. These are the 7 restful actions. 
+
+# **What is a Model?**
+
+The Model tells the application how the things stated should be formated. It's like a pre-set for information.
+
+# **What is a JSX?**
+
+JSX  is an extension that is the preffered templating system we use so we don't have to write more HTML Files when making our website.
+
+# **What is A View Engine?**
+
+A View Engine is responsible for transforming the view into HTML form in the browser. 
+
+# **What is A DataController?**
+
+The datetermines purposes for personal data and how the personal data is processed.
+
+# **What is A ViewController?**
+
+The view controller connects the application and the screen. 
+
+# **What is A RouteController?** 
+
+Connects our 7 restful actions to the other controllers. 
+
+# **What is Express Middleware?**
+
+Middleware gets executed after the server receives the request and before the controller actions send the response.
+
+# **Describe the MVC Diagram that we have been using in class?**
+
+It starts with the visitor of the application. They put in a request which node.js amd express work together to determine if they are asking for a template or working with the database. This determines whether express and node.js need to work with JSX (the template) or Mongoose/Mongo (the database). Then JSX will return the template to express or Mongoose/Mongo with return the data to express. Express then returns the info that the vistor had requested. 
 
